@@ -79,3 +79,34 @@
       max-width: 100%;
     }
   }
+/* For tablets (portrait and landscape) */
+@media (max-width: 768px) {
+  .about-us {
+    padding: 40px 15px;
+  }
+  .about-us h2 {
+    font-size: 2rem;
+  }
+  .team-member {
+    max-width: 100%;
+  }
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+  .about-us {
+    padding: 30px 10px;
+  }
+  .about-us h2 {
+    font-size: 1.8rem;
+  }
+  .team-member h3 {
+    font-size: 1.2rem;
+  }
+  .team-member p {
+    font-size: 0.9rem;
+  }
+  .team-member a {
+    font-size: 1.2rem;
+  }
+}

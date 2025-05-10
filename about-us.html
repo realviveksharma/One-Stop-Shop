@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <title>About-Us</title>
+    <link rel="stylesheet" href="/css/about-us.css">
+</head>
+<body>
+
+   
+    <!-- HEADER -->
+    <div id="1"></div>
+    <script>
+        load("header.html");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById(1).innerHTML = req.responseText;
+        }
+    </script>
+    <script src="header.js"></script>
+
+    <div class="space"></div>
+
+
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <h2>Meet the Team</h2>
+        <div class="team-container">
+      
+          <div class="team-member">
+            <img src="./img/Vivek Image for ABOUT US.jpeg" alt="Image of Vivek Sharma">
+            <h3>Vivek Sharma</h3>
+            <p><strong>Founder, Creative Head & Code Wrangler</strong><br>
+              The brain (and keyboard) behind it all. Vivek built this store from scratch—designing, coding, writing, and polishing every digital detail.
+            </p>
+            <a href="https://www.instagram.com/realviveksharma" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+      
+          <div class="team-member">
+            <img src="./img/Ayush Image for ABOUT US.jpeg" alt="Image of Ayush Rajta">
+            <h3>Ayush Rajta</h3>
+            <p><strong>Documentation Maestro & Content Strategist</strong><br>
+              Ayush is our content king—he ensures our words dazzle as much as our designs. From listings to strategies, he's got it word-perfect.
+            </p>
+            <a href="https://www.instagram.com/ll._a.y.u.s.h._ll" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+      
+          <div class="team-member">
+            <img src="./img/Aditya Image for ABOUT US.jpeg" alt="Image of Aditya Dhiman">
+            <h3>Aditya Dhiman</h3>
+            <p><strong>Backend Craftsman & Deployment Guru</strong><br>
+              Aditya is our behind-the-scenes wizard. He structured the codebase and ensured flawless deployment on GitHub. Solid. Slick. Seamless.
+            </p>
+            <a href="https://www.instagram.com/_.aditya.22" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+      
+        </div>
+      </section>
+
+
+
+
+    <!-- FOOTER -->
+    <div class="footer" id="4"></div>
+    <script>
+        load("footer.html");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById(4).innerHTML = req.responseText;
+        }
+    </script>
+</body>
+</html>

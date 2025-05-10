@@ -202,3 +202,76 @@ form div.incorrect input{
   border-radius: 0.25rem;
   font-weight: 600;
 }
+
+
+
+/* Mobile Devices (≤ 768px) */
+@media (max-width: 768px) {
+    html {
+      font-size: 11pt;
+    }
+  
+    .wrapper {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    form label {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem;
+    }
+  
+    form input {
+      height: 40px;
+      padding: 0.8em;
+    }
+  
+    form button {
+      padding: 0.7em 3em;
+    }
+  }
+  
+  /* Tablets (769px–1024px) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    html {
+      font-size: 12pt;
+    }
+  
+    .wrapper {
+      width: 80%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    form {
+      width: 90%;
+    }
+  
+    form label {
+      width: 45px;
+      height: 45px;
+      font-size: 1.4rem;
+    }
+  
+    form input {
+      height: 45px;
+      padding: 0.9em;
+    }
+  
+    form button {
+      padding: 0.8em 3.5em;
+    }
+  }
+  
